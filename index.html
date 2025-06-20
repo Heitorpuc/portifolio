@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Meu Portfólio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url('https://wallpapercave.com/wp/wp6951863.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #220686;
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+            backdrop-filter: blur(8px);
+        }
+
+        header {
+            text-align: center;
+            padding: 30px 0;
+        }
+
+        .foto-perfil {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 3px solid #00d8ff;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+
+        .info-pessoal {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        h1 {
+            color: #00d8ff;
+            margin-bottom: 5px;
+        }
+
+        h2 {
+            color: #00d8ff;
+        }
+
+        section {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .github-btn {
+            display: inline-flex;
+            align-items: center;
+            background-color: #24292e;
+            color: white;
+            padding: 12px 20px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        .github-btn img {
+            width: 24px;
+            margin-right: 10px;
+        }
+
+        .github-btn:hover {
+            background-color: #000000;
+        }
+
+        .creditos {
+            margin-top: 20px;
+            font-size: 16px;
+            color: #ccc;
+        }
+
+        #video-fundo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    object-fit: cover;
+    opacity: 0.; /* pode ajustar se quiser mais escuro ou claro */
+}
+
+    </style>
+</head>
+<body>
+<video autoplay muted loop id="video-fundo">
+    <source src="videopinterest.mp4" type="video/mp4">
+</video>
+
+    <header>
+        <img class="foto-perfil" src="foto para o portifolio.jpg" alt="Minha Foto">
+        <div class="info-pessoal">
+            <h1>Heitor Ribeiro Muller</h1>
+            <p>Curso: Ciência da Computação</p>
+            <p>Olá! Me chamo Heitor e curso Ciência da Computação.  
+               Aqui está um pouco do que fiz no meu 1º período da faculdade.</p>
+        </div>
+    </header>
+
+    <section>
+        <h2>Disciplina: Experiência Criativa</h2>
+        <p>Nesta disciplina aprendi a usar ferramentas digitais e criar projetos criativos com código.</p>
+        <p><strong>Trabalho:</strong> Meu primeiro site com HTML.</p>
+        <p>Gostei muito de aprender a programar. Achei desafiador no começo, mas foi gratificante ver o resultado final.</p>
+    </section>
+
+    <section>
+        <h2>Disciplina: Filosofia</h2>
+        <p>Estudamos textos de autores como Achille Mbembe, e discutimos o conceito de necropolítica.</p>
+        <p><strong>Trabalho:</strong> Mapa mental + Resenha crítica.</p>
+        <p>Foi difícil entender o texto no início, mas depois consegui fazer boas reflexões sobre a realidade brasileira.</p>
+    </section>
+
+    <section>
+        <h2>Disciplina: Fundamentos e Sistemas Ciberfísicos</h2>
+        <p>Aprendi a trabalhar com sensores, atuadores e lógica de controle usando microcontroladores como o ESP32.</p>
+        <p><strong>Trabalho:</strong> Projeto com sensor de presença e LED.</p>
+        <p>Foi muito legal montar circuitos e ver como o hardware e o software se comunicam.</p>
+    </section>
+
+    <section>
+        <h2>Disciplina: Raciocínio e Algoritmo</h2>
+        <p>Aprendi os conceitos básicos de lógica, algoritmos, fluxogramas e estruturas de repetição e condição.</p>
+        <p><strong>Trabalho:</strong> Criação de algoritmos com pseudocódigo e fluxogramas.</p>
+        <p>Gostei de aprender a resolver problemas passo a passo com lógica.</p>
+    </section>
+
+    <section>
+        <h2>Disciplina: Resolução de Problemas com Lógica Matemática</h2>
+        <p>Aprendi a aplicar lógica formal para resolver problemas usando dedução e inferência.</p>
+        <p><strong>Trabalho:</strong> Listas de exercícios, desafios lógicos e escape room.</p>
+        <p>Essa matéria me ensinou muito sobre raciocínio e foi uma das que mais gostei.</p>
+    </section>
+
+    <footer>
+        <a class="github-btn" href="https://github.com/Heitorpuc" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub Icon">
+            Visite meu GitHub
+        </a>
+
+    </footer>
+
+</body>
+</html>
